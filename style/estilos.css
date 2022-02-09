@@ -1,0 +1,504 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face {
+    font-family: "Arista";
+    src: url(../Arista-Pro-Alternate-Fat-trial.ttf);
+}
+@font-face {
+    font-family: "Comfortaa";
+    src: url(../Comfortaa-Bold.ttf);
+}
+header{
+    background-color: #DBE2EF;
+}
+header nav{
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+header nav a{
+    display: inline-block;
+}
+header nav a img{
+    display: inline-block;
+    width: auto; 
+    height: 150px;
+    padding: 25px;
+}
+header nav ul{
+    display: inline-block;
+    width: 700px;
+    height: 22px;
+    padding: 5px;
+    border: none;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+header nav ul li{
+    font-family: "Arista";
+    font-size: 25px;
+    list-style: none;
+    display: inline-block;
+}
+header nav ul li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #323232;
+    padding: 5px;
+}
+header nav ul li a:hover{
+    color: #f33f49;
+    background-color: rgb(255, 255, 255, 0.5);
+    border-radius: 10px;
+}
+header nav ul li ul{
+    display: block;
+    display: none;
+    position: absolute;
+    z-index: 100;
+    width: auto;
+    height: auto;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+}
+header nav ul li:hover > ul{
+    display: block;
+}
+header nav ul li ul li{
+    display: block;
+    position: relative;    
+}
+header nav ul li ul li a:hover{
+    background: none;
+}
+#productos:hover{
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+main{
+    padding-bottom: 25px;
+    background: linear-gradient(to bottom, rgb(243, 63, 73, 0.95), rgb(166, 39, 119, 0.95));
+}
+main div h1{
+    background-color: rgba(50, 50, 50, 0.9);
+    font-size: 50px;
+    font-family: Arista;
+    text-transform: uppercase;
+    text-align: center;
+    color: white
+}
+.portada{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    background-color: rgba(219, 226, 239, 0.6);
+    display: flex;
+    justify-content: center; 
+    border-radius: 15px;
+}
+.portada img{
+    border-radius: 15px;
+    width: 100%;
+}
+.novedades h2{
+    font-family: "Arista";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: rgba(50, 50, 50, 0.9);
+    border-radius: 15px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.instagram-media{
+    margin-left: auto !important;
+    margin-right: auto !important;
+}
+.nosotros h2{
+    font-family: "Arista";
+    text-transform: uppercase;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    text-align: center;
+    height: 32px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.nosotros{
+    margin-top: 25px;
+    display: flex;
+}
+.nosotros_titulo{
+    background-color: #323232;
+    height: 300px;
+    width: 900px;
+    margin-left: 25px;
+    padding-bottom: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.nosotros_texto{
+    background-color: rgba(255, 255, 255, 0.7);
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    margin-right: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.nosotros_texto p{
+    font-family: "Comfortaa";
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nosotros_texto a{
+    text-decoration: none;
+    font-family: "Comfortaa";
+    color: white;
+    background-color: rgb(50, 50, 50, 0.7);
+    width: 100px;
+    border-radius: 15px;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+footer{
+    background-color: #323232;
+    display: flex;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo_footer img{
+    height: 200px;
+    width: auto;
+}
+footer .ubicaciones_footer{
+    color: white;
+}
+footer .ubicaciones_footer h3{
+    font-family: "Comfortaa";
+}
+footer .ubicaciones_footer ul{
+    list-style: none;
+    font-family: "Comfortaa";
+}
+footer .redes_footer a img{
+    width: 50px;
+    height: auto;
+}
+main .productos_fotos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    gap: 25px;
+    margin-top: 25px;
+}
+main .productos_fotos video{
+    margin: 50px;
+    border-style: solid;
+    border-color: rgba(0, 0, 0, 0.5);
+    border-radius: 25px;
+}
+main .productos_fotos img{
+    width: 300px;
+    height: auto;
+    border: 2px;
+    border: rgba(0, 0, 0, 0.5);
+    border-style: solid;
+    border-radius: 25px;
+}
+.nosotros_pagina{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.nosotros_pagina .quienessomos_titulo h2{
+    font-family: "Arista";
+    font-size: 30px;
+    text-transform: capitalize;
+    width: fit-content;
+    margin: 25px;
+}
+.nosotros_pagina .quienessomos_texto{
+    margin: 25px;
+    margin-top: 0px;
+}
+.nosotros_pagina .quienessomos_texto p{
+    font-family: "Comfortaa";
+    text-transform: capitalize;
+    font-size: 20px;
+    width: fit-content;
+}
+.nosotros_pagina .nuestrosproductos_titulo h2{
+    font-family: "Arista";
+    font-size: 30px;
+    text-transform: capitalize;
+    width: fit-content;
+    margin: 25px;
+}
+.nosotros_pagina .nuestrosproductos_texto{
+    margin: 25px;
+    margin-top: 0px;
+}
+.nosotros_pagina .nuestrosproductos_texto p{
+    font-family: "Comfortaa";
+    text-transform: capitalize;
+    font-size: 20px;
+    width: fit-content;
+}
+.nosotros_pagina .proceso_titulo h2{
+    font-family: "Arista";
+    font-size: 30px;
+    text-transform: capitalize;
+    width: fit-content;
+    margin: 25px;
+}
+.nosotros_pagina .proceso_texto{
+    margin: 25px;
+    margin-top: 0px;
+}
+.nosotros_pagina .proceso_texto p{
+    font-family: "Comfortaa";
+    text-transform: capitalize;
+    font-size: 20px;
+    width: fit-content;
+}
+.contacto_pagina .contacto_contenido{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: center;
+}
+.contacto_pagina .contacto_contenido h2{
+    font-family: "Arista";
+    text-transform: capitalize;
+    font-size: 30px;
+    margin: 25px;
+}
+.contacto_pagina .contacto_contenido .redessociales_iconos img{
+    height: 100px;
+    width: auto;
+}
+.contacto_pagina .contacto_contenido .contacto_formulario form{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    align-items: stretch;
+    font-family:"Comfortaa";
+    margin-top: 0px;
+}
+.contacto_pagina .contacto_contenido .contacto_formulario form input{
+    height: 25px;
+}
+.contacto_pagina .contacto_contenido .contacto_formulario form select{
+    height: 25px;
+}
+.contacto_pagina .contacto_contenido .contacto_formulario form .botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.contacto_pagina .contacto_contenido .contacto_formulario form .botones input{
+    width: 200px;
+    margin: 0px;
+}
+.toggle, [id^=drop] {
+	display: none;
+}
+
+
+/* Mobile */
+@media  screen and (max-width: 480px) {
+    header nav{
+        height: 100%;
+    }  
+    header nav a img{
+        height: 125px;
+    }  
+    main div h1{
+        font-size: 25px;
+    }
+    .portada{
+        width: 90%;
+        padding: 2%;
+    }
+    .novedades h2{
+        font-size: 20px;
+    }
+    main .productos_fotos{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 5px;
+    }
+    main .productos_fotos img{
+        width: auto;
+        height: 150px;
+    }
+    main .nosotros{
+        width: 90%;
+        flex-direction: column;
+        margin: 10px 10px;
+        margin: auto;
+    }
+    main .nosotros .nosotros_titulo{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        border-bottom-left-radius: 0px;
+    }
+    main .nosotros .nosotros_titulo h2{
+        font-size: 20px;
+        height: fit-content;
+        margin: 20px 20px;
+    }
+    main .nosotros .nosotros_texto p{
+        font-size: 16px;
+        margin: 10px;
+        text-align: justify;
+    }
+    main .nosotros .nosotros_texto{
+        width: 100%;
+        height: fit-content;
+        margin: 0%;
+        margin-bottom: 10px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 10px;
+        border-bottom-right-radius: 10px;
+    }
+    main .nosotros .nosotros_texto a{
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    footer{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr;
+    }
+    footer .logo_footer{
+        grid-row: 1/3;
+    }
+    footer .logo_footer img{
+        height: 150px;
+        width: auto;
+    }
+    footer .ubicaciones_footer{
+        margin-top: 10px;
+    }
+    footer .ubicaciones_footer h3{
+        font-size: 16px;
+    }
+    footer .ubicaciones_footer ul li{
+        font-size: 14px;
+    } 
+    footer .redes_footer{
+        text-align: center;
+    }
+    footer .redes_footer a img{
+        height: 40px;
+        width: auto;
+    }
+    .nosotros_pagina .quienessomos_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .quienessomos_texto p{
+        font-size: 16px;
+    }
+    .nosotros_pagina .nuestrosproductos_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .nuestrosproductos_texto p{
+        font-size: 16px; 
+    }
+    .nosotros_pagina .proceso_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .proceso_texto p{
+        font-size: 16px;
+    }
+    .contacto_pagina .contacto_contenido h2{
+        font-size: 25px;
+    }
+    .contacto_pagina .contacto_contenido .redessociales_iconos img{
+        height: 50px;
+        width: auto;
+        margin: 5px;
+    }
+    .contacto_pagina .contacto_contenido .contacto_formulario{
+        width: 300px;
+    }
+    .contacto_pagina .contacto_contenido .contacto_formulario form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    nav {
+		margin: 0;
+        position:relative;
+	}
+    header nav ul{
+        position:absolute;
+        width:100%;
+        height: fit-content;
+        background-color: #DBE2EF;
+        top:100px;
+    }
+    #drop::after {
+        content:"";
+        display:block;
+        clear:both;
+    }
+    .toggle + a, header nav ul {
+		display: none;
+	}
+    .toggle {
+		display: block;
+		background-color: #f33f49;
+		padding:14px 20px;	
+		color:#FFF;
+		font-size:17px;
+		text-decoration:none;
+		border:none;
+        float: right;
+	}
+    .toggle:hover{
+        background-color: #A62777
+    }
+    [id^=drop]:checked + ul {
+		display: block;
+	}
+
+	nav ul li {
+		display: block;
+		width: 100%;
+        text-align: center;
+	}
+}
