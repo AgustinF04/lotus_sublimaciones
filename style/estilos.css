@@ -11,6 +11,9 @@
     font-family: "Comfortaa";
     src: url(../Comfortaa-Bold.ttf);
 }
+html{
+    scroll-behavior: smooth;
+}
 header{
     background-color: #DBE2EF;
 }
@@ -20,7 +23,7 @@ header nav{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-
+    z-index: 1000;
 }
 header nav a{
     display: inline-block;
@@ -59,6 +62,7 @@ header nav ul li a:hover{
     color: #f33f49;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
+    transition-duration: 250ms;
 }
 header nav ul li ul{
     display: block;
@@ -127,9 +131,12 @@ main div h1{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.instagram-media{
-    margin-left: auto !important;
-    margin-right: auto !important;
+.novedades .galeria{
+    background-image: url(../media/14f.png);
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
 }
 .nosotros h2{
     font-family: "Arista";
@@ -145,6 +152,7 @@ main div h1{
 .nosotros{
     margin-top: 25px;
     display: flex;
+    overflow: hidden;
 }
 .nosotros_titulo{
     background-color: #323232;
@@ -157,6 +165,7 @@ main div h1{
     align-items: center;
     border-top-left-radius: 15px;
     border-bottom-left-radius: 15px;
+    overflow: hidden;
 }
 .nosotros_texto{
     background-color: rgba(255, 255, 255, 0.7);
@@ -166,6 +175,7 @@ main div h1{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
 }
 .nosotros_texto p{
     font-family: "Comfortaa";
@@ -183,6 +193,11 @@ main div h1{
     text-align: center;
     margin-top: 10px;
     margin-left: 10px;
+}
+.nosotros_texto a:hover{
+    transform: scale(1.1);
+    background-color: #f33f49;
+    transition-duration: 150ms;
 }
 footer{
     background-color: #323232;
@@ -235,7 +250,7 @@ main .productos_fotos img{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
-
+    overflow: hidden;
 }
 .nosotros_pagina .quienessomos_titulo h2{
     font-family: "Arista";
