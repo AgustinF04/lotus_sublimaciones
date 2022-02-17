@@ -14,108 +14,54 @@
 html{
     scroll-behavior: smooth;
 }
-header{
+.navbar{
     background-color: #DBE2EF;
+    box-shadow: 0 0 10px black
 }
-header nav{
-    height: 150px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 1000;
+.navbar .navbar-brand img{
+    height: 75px;
 }
-header nav a{
-    display: inline-block;
-}
-header nav a img{
-    display: inline-block;
-    width: auto; 
-    height: 150px;
-    padding: 25px;
-}
-header nav ul{
-    display: inline-block;
-    width: 700px;
-    height: 22px;
-    padding: 5px;
-    border: none;
-    margin-right: 50px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    position: relative;
-}
-header nav ul li{
+.nav-link{
     font-family: "Arista";
     font-size: 25px;
-    list-style: none;
-    display: inline-block;
-}
-header nav ul li a{
     text-decoration: none;
     text-transform: uppercase;
-    color: #323232;
-    padding: 5px;
+    color: #323232 !important;
 }
-header nav ul li a:hover{
-    color: #f33f49;
+.nav-link:hover{
+    color: #f33f49 !important;
     background-color: rgb(255, 255, 255, 0.5);
     border-radius: 10px;
     transition-duration: 250ms;
 }
-header nav ul li ul{
-    display: block;
-    display: none;
-    position: absolute;
-    z-index: 100;
-    width: auto;
-    height: auto;
-    background-color: rgb(255, 255, 255);
-    border-radius: 10px;
-    border-top-left-radius: 0px;
-}
-header nav ul li:hover > ul{
-    display: block;
-}
-header nav ul li ul li{
-    display: block;
-    position: relative;    
-}
-header nav ul li ul li a:hover{
-    background: none;
-}
-#productos:hover{
-    border-bottom-left-radius: 0px;
-    border-bottom-right-radius: 0px;
-}
 main{
     padding-bottom: 25px;
-    background: linear-gradient(to bottom, rgb(243, 63, 73, 0.95), rgb(166, 39, 119, 0.95));
+    background-color: white;
 }
-main div h1{
-    background-color: rgba(50, 50, 50, 0.9);
-    font-size: 50px;
-    font-family: Arista;
+.jumbotron{
+    background-image: url(../media/portada.png);
+    height: 100vh;
+    background-size: cover;
+    background-position: bottom;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    position: relative;
+}
+#fondo::before{
+    content: "";
+	position: absolute;
+    top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+#fondo h1{
+    color: white;
+    font-family: "Arista";
     text-transform: uppercase;
     text-align: center;
-    color: white
-}
-.portada{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    width: 80%;
-    background-color: rgba(219, 226, 239, 0.6);
-    display: flex;
-    justify-content: center; 
-    border-radius: 15px;
-}
-.portada img{
-    border-radius: 15px;
-    width: 100%;
+    position: relative;
 }
 .novedades h2{
     font-family: "Arista";
@@ -131,12 +77,20 @@ main div h1{
     margin-top: 25px;
     margin-bottom: 25px;
 }
-.novedades .galeria{
-    background-image: url(../media/14f.png);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    border-radius: 50%;
+    background-color: #323232;
+}
+.carousel-indicators li{
+    background-color: black;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+.carousel-item img{
+    padding: 0.5%;
+    background-color: rgb(0, 0, 0, 0.5);
+
 }
 .nosotros h2{
     font-family: "Arista";
@@ -168,7 +122,7 @@ main div h1{
     overflow: hidden;
 }
 .nosotros_texto{
-    background-color: rgba(255, 255, 255, 0.7);
+    background-color: rgba(0, 0, 0, 0.5);
     border-top-right-radius: 15px;
     border-bottom-right-radius: 15px;
     margin-right: 25px;
@@ -178,6 +132,7 @@ main div h1{
     overflow: hidden;
 }
 .nosotros_texto p{
+    color: white;
     font-family: "Comfortaa";
     margin-bottom: 10px;
     margin-left: 10px;
@@ -225,6 +180,11 @@ footer .redes_footer a img{
     width: 50px;
     height: auto;
 }
+main .productos_titulo h1{
+    font-family: "Arista";
+    text-transform: uppercase;
+    text-align: center;
+}
 main .productos_fotos{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -251,6 +211,11 @@ main .productos_fotos img{
     flex-direction: column;
     flex-wrap: wrap;
     overflow: hidden;
+}
+.nosotros_pagina .nosotrospagina_titulo h1{
+    font-family: "Arista";
+    text-transform: uppercase;
+    text-align: center;
 }
 .nosotros_pagina .quienessomos_titulo h2{
     font-family: "Arista";
@@ -310,6 +275,11 @@ main .productos_fotos img{
     align-content: center;
     align-items: center;
 }
+.contacto_pagina .contacto_titulo h1{
+    font-family: "Arista";
+    text-transform: uppercase;
+    text-align: center;
+}
 .contacto_pagina .contacto_contenido h2{
     font-family: "Arista";
     text-transform: capitalize;
@@ -351,12 +321,6 @@ main .productos_fotos img{
 
 /* Mobile */
 @media  screen and (max-width: 480px) {
-    header nav{
-        height: 100%;
-    }  
-    header nav a img{
-        height: 125px;
-    }  
     main div h1{
         font-size: 25px;
     }
@@ -386,6 +350,7 @@ main .productos_fotos img{
         width: 100%;
         height: fit-content;
         margin: 0%;
+        margin-top: 20px;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
@@ -475,45 +440,4 @@ main .productos_fotos img{
         flex-direction: column;
         flex-wrap: nowrap;
     }
-    nav {
-		margin: 0;
-        position:relative;
-	}
-    header nav ul{
-        position:absolute;
-        width:100%;
-        height: fit-content;
-        background-color: #DBE2EF;
-        top:100px;
-    }
-    #drop::after {
-        content:"";
-        display:block;
-        clear:both;
-    }
-    .toggle + a, header nav ul {
-		display: none;
-	}
-    .toggle {
-		display: block;
-		background-color: #f33f49;
-		padding:14px 20px;	
-		color:#FFF;
-		font-size:17px;
-		text-decoration:none;
-		border:none;
-        float: right;
-	}
-    .toggle:hover{
-        background-color: #A62777
-    }
-    [id^=drop]:checked + ul {
-		display: block;
-	}
-
-	nav ul li {
-		display: block;
-		width: 100%;
-        text-align: center;
-	}
 }
