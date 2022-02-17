@@ -14,6 +14,7 @@
 html{
     scroll-behavior: smooth;
 }
+/* BARRA DE NAVEGACION - INICIO */
 .navbar{
     background-color: #DBE2EF;
     box-shadow: 0 0 10px black
@@ -34,10 +35,12 @@ html{
     border-radius: 10px;
     transition-duration: 250ms;
 }
+/* BARRA DE NAVEGACION - FIN */
 main{
     padding-bottom: 25px;
     background-color: white;
 }
+/* BANNER - INICIO */
 .jumbotron{
     background-image: url(../media/portada.png);
     height: 100vh;
@@ -63,6 +66,9 @@ main{
     text-align: center;
     position: relative;
 }
+/* BANNER - FIN */
+
+/* NOVEDADES - INICIO */
 .novedades h2{
     font-family: "Arista";
     text-transform: uppercase;
@@ -77,6 +83,7 @@ main{
     margin-top: 25px;
     margin-bottom: 25px;
 }
+    /* Carrusel - inicio */
 .carousel-control-prev-icon, .carousel-control-next-icon{
     border-radius: 50%;
     background-color: #323232;
@@ -90,8 +97,11 @@ main{
 .carousel-item img{
     padding: 0.5%;
     background-color: rgb(0, 0, 0, 0.5);
-
 }
+    /* Carrusel - fin */
+/* NOVEDADES - FIN */
+
+/* NOSOTROS -INICIO */
 .nosotros h2{
     font-family: "Arista";
     text-transform: uppercase;
@@ -154,6 +164,9 @@ main{
     background-color: #f33f49;
     transition-duration: 150ms;
 }
+/* NOSOTROS - FIN */
+
+/* FOOTER - INICIO */
 footer{
     background-color: #323232;
     display: flex;
@@ -180,6 +193,9 @@ footer .redes_footer a img{
     width: 50px;
     height: auto;
 }
+/* FOOTER - FIN */
+
+/* PAGINA PRODUCTOS - INICIO */
 main .productos_titulo h1{
     font-family: "Arista";
     text-transform: uppercase;
@@ -206,6 +222,9 @@ main .productos_fotos img{
     border-style: solid;
     border-radius: 25px;
 }
+/* PAGINA PRODUCTOS - FIN */
+
+/* PAGINA NOSOTROS - INICIO */
 .nosotros_pagina{
     display: flex;
     flex-direction: column;
@@ -268,6 +287,9 @@ main .productos_fotos img{
     font-size: 20px;
     width: fit-content;
 }
+/* NOSOTROS PAGINA - FIN */
+
+/* CONTACTO PAGINA - INICIO */
 .contacto_pagina .contacto_contenido{
     display: flex;
     flex-direction: column;
@@ -314,23 +336,21 @@ main .productos_fotos img{
     width: 200px;
     margin: 0px;
 }
-.toggle, [id^=drop] {
-	display: none;
-}
+/* CONTACTO PAGINA - FIN */
 
 
-/* Mobile */
+/* MOBILE - INICIO */
 @media  screen and (max-width: 480px) {
     main div h1{
         font-size: 25px;
     }
-    .portada{
-        width: 90%;
-        padding: 2%;
-    }
+    /* NOVEDADES - INICIO */
     .novedades h2{
         font-size: 20px;
     }
+    /* NOVEDADES - FIN */
+
+    /* PAGINA PRODUCTOS - INICIO */
     main .productos_fotos{
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
@@ -340,6 +360,9 @@ main .productos_fotos img{
         width: auto;
         height: 150px;
     }
+    /* PAGINA PRODUCTOS - FIN */
+
+    /* PAGINA NOSOTROS - INICIO */
     main .nosotros{
         width: 90%;
         flex-direction: column;
@@ -378,6 +401,46 @@ main .productos_fotos img{
         margin: auto;
         margin-bottom: 10px;
     }
+    .nosotros_pagina .quienessomos_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .quienessomos_texto p{
+        font-size: 16px;
+    }
+    .nosotros_pagina .nuestrosproductos_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .nuestrosproductos_texto p{
+        font-size: 16px; 
+    }
+    .nosotros_pagina .proceso_titulo h2{
+        font-size: 25px;
+    }
+    .nosotros_pagina .proceso_texto p{
+        font-size: 16px;
+    }
+    /* PAGINA NOSOTROS - FIN */
+
+    /* CONTACTO PAGINA- INICIO */
+    .contacto_pagina .contacto_contenido h2{
+        font-size: 25px;
+    }
+    .contacto_pagina .contacto_contenido .redessociales_iconos img{
+        height: 50px;
+        width: auto;
+        margin: 5px;
+    }
+    .contacto_pagina .contacto_contenido .contacto_formulario{
+        width: 300px;
+    }
+    .contacto_pagina .contacto_contenido .contacto_formulario form{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: nowrap;
+    }
+    /* CONTACTO PAGINA - FIN */
+
+    /* FOOTER - INICIO */
     footer{
         display: grid;
         grid-template-columns: 1fr 1fr;
@@ -406,38 +469,6 @@ main .productos_fotos img{
         height: 40px;
         width: auto;
     }
-    .nosotros_pagina .quienessomos_titulo h2{
-        font-size: 25px;
-    }
-    .nosotros_pagina .quienessomos_texto p{
-        font-size: 16px;
-    }
-    .nosotros_pagina .nuestrosproductos_titulo h2{
-        font-size: 25px;
-    }
-    .nosotros_pagina .nuestrosproductos_texto p{
-        font-size: 16px; 
-    }
-    .nosotros_pagina .proceso_titulo h2{
-        font-size: 25px;
-    }
-    .nosotros_pagina .proceso_texto p{
-        font-size: 16px;
-    }
-    .contacto_pagina .contacto_contenido h2{
-        font-size: 25px;
-    }
-    .contacto_pagina .contacto_contenido .redessociales_iconos img{
-        height: 50px;
-        width: auto;
-        margin: 5px;
-    }
-    .contacto_pagina .contacto_contenido .contacto_formulario{
-        width: 300px;
-    }
-    .contacto_pagina .contacto_contenido .contacto_formulario form{
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-    }
+    /* FOOTER - FIN */
 }
+/* MOBILE - FIN */
