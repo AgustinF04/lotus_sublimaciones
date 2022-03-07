@@ -618,8 +618,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .estampadora_info {
+  .estampadora .estampadora_info {
     width: 98%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -634,8 +633,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto {
+  .estampadora .estampadora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 98%;
     height: 320px;
@@ -645,8 +643,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto img {
+  .estampadora .estampadora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -664,8 +661,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .impresora_info {
+  .impresora .impresora_info {
     width: 98%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -680,8 +676,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto {
+  .impresora .impresora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 98%;
     height: 320px;
@@ -691,8 +686,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto img {
+  .impresora .impresora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -710,8 +704,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .hojas_info {
+  .hojas .hojas_info {
     width: 98%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -726,8 +719,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto {
+  .hojas .hojas_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 98%;
     height: 320px;
@@ -737,8 +729,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto img {
+  .hojas .hojas_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -756,8 +747,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .tinta_info {
+  .tinta .tinta_info {
     width: 98%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -772,8 +762,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto {
+  .tinta .tinta_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 98%;
     height: 320px;
@@ -783,8 +772,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto img {
+  .tinta .tinta_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -981,8 +969,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .estampadora_info {
+  .estampadora .estampadora_info {
     width: 95%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -997,8 +984,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto {
+  .estampadora .estampadora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 95%;
     height: 320px;
@@ -1008,8 +994,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto img {
+  .estampadora .estampadora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1027,8 +1012,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .impresora_info {
+  .impresora .impresora_info {
     width: 95%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1043,8 +1027,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto {
+  .impresora .impresora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 95%;
     height: 320px;
@@ -1054,8 +1037,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto img {
+  .impresora .impresora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1073,8 +1055,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .hojas_info {
+  .hojas .hojas_info {
     width: 95%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1089,8 +1070,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto {
+  .hojas .hojas_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 95%;
     height: 320px;
@@ -1100,8 +1080,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto img {
+  .hojas .hojas_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1119,8 +1098,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .tinta_info {
+  .tinta .tinta_info {
     width: 95%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1135,8 +1113,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto {
+  .tinta .tinta_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 95%;
     height: 320px;
@@ -1146,8 +1123,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto img {
+  .tinta .tinta_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1344,8 +1320,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .estampadora_info {
+  .estampadora .estampadora_info {
     width: 85%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1360,8 +1335,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto {
+  .estampadora .estampadora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 85%;
     height: 320px;
@@ -1371,8 +1345,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto img {
+  .estampadora .estampadora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1390,8 +1363,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .impresora_info {
+  .impresora .impresora_info {
     width: 85%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1406,8 +1378,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto {
+  .impresora .impresora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 85%;
     height: 320px;
@@ -1417,8 +1388,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto img {
+  .impresora .impresora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1436,8 +1406,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .hojas_info {
+  .hojas .hojas_info {
     width: 85%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1452,8 +1421,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto {
+  .hojas .hojas_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 85%;
     height: 320px;
@@ -1463,8 +1431,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto img {
+  .hojas .hojas_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1482,8 +1449,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .tinta_info {
+  .tinta .tinta_info {
     width: 85%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1498,8 +1464,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto {
+  .tinta .tinta_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 85%;
     height: 320px;
@@ -1509,8 +1474,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto img {
+  .tinta .tinta_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1707,8 +1671,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .estampadora_info {
+  .estampadora .estampadora_info {
     width: 75%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1723,8 +1686,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto {
+  .estampadora .estampadora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 75%;
     height: 320px;
@@ -1734,8 +1696,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .estampadora_foto img {
+  .estampadora .estampadora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1753,8 +1714,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .impresora_info {
+  .impresora .impresora_info {
     width: 75%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1769,8 +1729,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto {
+  .impresora .impresora_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 75%;
     height: 320px;
@@ -1780,8 +1739,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .impresora_foto img {
+  .impresora .impresora_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1799,8 +1757,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .hojas_info {
+  .hojas .hojas_info {
     width: 75%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1815,8 +1772,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto {
+  .hojas .hojas_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 75%;
     height: 320px;
@@ -1826,8 +1782,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .hojas_foto img {
+  .hojas .hojas_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;
@@ -1845,8 +1800,7 @@ main .productos_fotos video {
     align-items: center;
     margin-bottom: 5%;
   }
-
-  .tinta_info {
+  .tinta .tinta_info {
     width: 75%;
     height: 150px;
     background-color: rgba(255, 255, 255, 0.7);
@@ -1861,8 +1815,7 @@ main .productos_fotos video {
     border-radius: 15px 15px 0px 0px;
     box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto {
+  .tinta .tinta_foto {
     background-color: rgba(255, 255, 255, 0.7);
     width: 75%;
     height: 320px;
@@ -1872,8 +1825,7 @@ main .productos_fotos video {
     border-radius: 0px 0px 15px 15px;
     box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
   }
-
-  .tinta_foto img {
+  .tinta .tinta_foto img {
     height: 300px;
     width: 300px;
     object-fit: cover;

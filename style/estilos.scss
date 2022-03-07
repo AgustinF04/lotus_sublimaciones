@@ -605,39 +605,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .estampadora_info{
+            width: 98%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .estampadora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 98%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .estampadora_info{
-        width: 98%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 98%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .impresora{
         margin: auto;
         width: 100%;
@@ -648,39 +647,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .impresora_info{
+            width: 98%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .impresora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 98%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .impresora_info{
-        width: 98%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 98%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .hojas{
         margin: auto;
         width: 100%;
@@ -691,39 +689,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .hojas_info{
+            width: 98%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .hojas_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 98%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .hojas_info{
-        width: 98%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 98%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .tinta{
         margin: auto;
         width: 100%;
@@ -734,38 +731,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
-    }
-    .tinta_info{
-        width: 98%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 98%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
+        .tinta_info{
+            width: 98%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .tinta_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 98%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
+    } 
     // INSUMOS - FIN
 
     /* PAGINA PRODUCTOS - INICIO */
@@ -935,39 +932,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .estampadora_info{
+            width: 95%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .estampadora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 95%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .estampadora_info{
-        width: 95%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 95%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .impresora{
         margin: auto;
         width: 100%;
@@ -978,39 +974,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .impresora_info{
+            width: 95%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .impresora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 95%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .impresora_info{
-        width: 95%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 95%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .hojas{
         margin: auto;
         width: 100%;
@@ -1021,39 +1016,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .hojas_info{
+            width: 95%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .hojas_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 95%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .hojas_info{
-        width: 95%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 95%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .tinta{
         margin: auto;
         width: 100%;
@@ -1064,37 +1058,37 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
-    }
-    .tinta_info{
-        width: 95%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 95%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
+        .tinta_info{
+            width: 95%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .tinta_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 95%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
     // INSUMOS - FIN
 
@@ -1265,39 +1259,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .estampadora_info{
+            width: 85%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .estampadora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 85%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .estampadora_info{
-        width: 85%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 85%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .impresora{
         margin: auto;
         width: 100%;
@@ -1308,39 +1301,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .impresora_info{
+            width: 85%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .impresora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 85%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }   
     }
-    .impresora_info{
-        width: 85%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 85%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .hojas{
         margin: auto;
         width: 100%;
@@ -1351,39 +1343,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .hojas_info{
+            width: 85%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .hojas_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 85%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .hojas_info{
-        width: 85%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 85%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .tinta{
         margin: auto;
         width: 100%;
@@ -1394,37 +1385,37 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
-    }
-    .tinta_info{
-        width: 85%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 85%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
+        .tinta_info{
+            width: 85%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .tinta_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 85%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
     // INSUMOS - FIN
 
@@ -1595,39 +1586,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .estampadora_info{
+            width: 75%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .estampadora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 75%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .estampadora_info{
-        width: 75%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 75%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .estampadora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .impresora{
         margin: auto;
         width: 100%;
@@ -1638,39 +1628,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .impresora_info{
+            width: 75%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .impresora_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 75%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .impresora_info{
-        width: 75%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 75%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .impresora_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .hojas{
         margin: auto;
         width: 100%;
@@ -1681,39 +1670,38 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
+        .hojas_info{
+            width: 75%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .hojas_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 75%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
-    .hojas_info{
-        width: 75%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 75%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .hojas_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
-    }
-
     .tinta{
         margin: auto;
         width: 100%;
@@ -1724,37 +1712,37 @@ $textos:(
         justify-content: center;
         align-items: center;
         margin-bottom: 5%;
-    }
-    .tinta_info{
-        width: 75%;
-        height: 150px;
-        background-color: rgba(255, 255, 255, 0.7);
-        padding: 25px;
-        font-family: "comfortaa";
-        display: flex;
-        flex-direction: column;
-        flex-wrap: wrap;
-        align-content: center;
-        justify-content: center;
-        align-items: center;
-        border-radius: 15px 15px 0px 0px;
-        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto{
-        background-color: rgba(255, 255, 255, 0.7);
-        width: 75%;
-        height: 320px;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        border-radius: 0px 0px 15px 15px;
-        box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
-    }
-    .tinta_foto img{
-        height: 300px;
-        width: 300px;
-        object-fit: cover;
-        border-radius: 15px;
+        .tinta_info{
+            width: 75%;
+            height: 150px;
+            background-color: rgba(255, 255, 255, 0.7);
+            padding: 25px;
+            font-family: "comfortaa";
+            display: flex;
+            flex-direction: column;
+            flex-wrap: wrap;
+            align-content: center;
+            justify-content: center;
+            align-items: center;
+            border-radius: 15px 15px 0px 0px;
+            box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.2);
+        }
+        .tinta_foto{
+            background-color: rgba(255, 255, 255, 0.7);
+            width: 75%;
+            height: 320px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 0px 0px 15px 15px;
+            box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+            img{
+                height: 300px;
+                width: 300px;
+                object-fit: cover;
+                border-radius: 15px;
+            }
+        }
     }
     // INSUMOS - FIN
 
@@ -1879,7 +1867,7 @@ $textos:(
         width: auto;
     }
 }
-// TABLET - INICIO
+// TABLET - FIN
 
 // LAPTOP INICIO
 @media screen and (min-width: 768px) and (max-width: 1024px) {
