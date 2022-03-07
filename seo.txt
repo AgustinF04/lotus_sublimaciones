@@ -1,5 +1,0 @@
--Agrego titulo a todas las paginas
--Agrego encabezados a todas las paginas
--Con la etiqueta <meta name="description" agregué una pequeña descripción a todas las paginas.
--Con la etiqueta <meta name="keywords" agregué las siguientes palabras clave:"personalizados, sublimación, sublimaciones, sublimados, tazas, cuadernos, remeras, almohadones, rompecabezas, mate"
--En las imagenes le agrego descripción "Alt"
