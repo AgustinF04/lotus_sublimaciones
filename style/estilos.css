@@ -62,6 +62,7 @@ main {
   margin-bottom: 0;
   position: relative;
   box-shadow: 0px 5px 15px black;
+  background-attachment: fixed;
 }
 
 #fondo::before {
@@ -217,7 +218,7 @@ main {
 }
 .estampadora .estampadora_info {
   width: 50%;
-  height: 200px;
+  height: 320px;
   background-color: rgba(255, 255, 255, 0.7);
   padding: 25px;
   font-family: "comfortaa";
@@ -238,7 +239,7 @@ main {
   align-items: center;
   justify-content: center;
   transform: translateY(100px);
-  border-radius: 0px 15px 15px 15px;
+  border-radius: 0px 15px 15px 0px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .estampadora .estampadora_foto img {
@@ -260,7 +261,7 @@ main {
 }
 .impresora .impresora_info {
   width: 50%;
-  height: 200px;
+  height: 320px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 25px;
   font-family: "comfortaa";
@@ -281,7 +282,7 @@ main {
   align-items: center;
   justify-content: center;
   transform: translateY(100px);
-  border-radius: 15px 0px 15px 15px;
+  border-radius: 15px 0px 0px 15px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .impresora .impresora_foto img {
@@ -303,7 +304,7 @@ main {
 }
 .hojas .hojas_info {
   width: 50%;
-  height: 200px;
+  height: 320px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 25px;
   font-family: "comfortaa";
@@ -324,7 +325,7 @@ main {
   align-items: center;
   justify-content: center;
   transform: translateY(100px);
-  border-radius: 0px 15px 15px 15px;
+  border-radius: 0px 15px 15px 0px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .hojas .hojas_foto img {
@@ -346,7 +347,7 @@ main {
 }
 .tinta .tinta_info {
   width: 50%;
-  height: 200px;
+  height: 320px;
   background-color: rgba(255, 255, 255, 0.5);
   padding: 25px;
   font-family: "comfortaa";
@@ -367,7 +368,7 @@ main {
   align-items: center;
   justify-content: center;
   transform: translateY(100px);
-  border-radius: 15px 0px 15px 15px;
+  border-radius: 15px 0px 0px 15px;
   box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
 }
 .tinta .tinta_foto img {
@@ -413,25 +414,38 @@ main .productos_titulo h1 {
 }
 
 main .productos_fotos {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  justify-items: center;
-  gap: 25px;
-  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
 }
-main .productos_fotos img {
-  width: 300px;
-  height: auto;
-  border: 2px;
-  border: rgba(0, 0, 0, 0.5);
-  border-style: solid;
-  border-radius: 25px;
+main .productos_fotos .grupo {
+  margin-bottom: 30px;
+  background-color: rgba(255, 255, 255, 0.7);
+  width: 100%;
+  height: 100%;
+  padding: 25px 0px 25px 0px;
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.5);
 }
-main .productos_fotos video {
-  margin: 50px;
-  border-style: solid;
-  border-color: rgba(0, 0, 0, 0.5);
-  border-radius: 25px;
+main .productos_fotos .grupo .titulo {
+  font-family: "comfortaa";
+  text-align: center;
+}
+main .productos_fotos .grupo .fotos {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+main .productos_fotos .grupo .fotos img {
+  height: 250px;
+  width: auto;
+  border-radius: 10px;
+  transition: 0.5s;
+}
+main .productos_fotos .grupo .fotos img:hover {
+  box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.5);
+  transform: scale(1.08);
+  transition: 0.5s;
 }
 
 /* PAGINA PRODUCTOS - FIN */
@@ -523,8 +537,9 @@ main .productos_fotos video {
   margin: 25px;
 }
 .contacto_pagina .contacto_contenido .redessociales_iconos img {
-  height: 100px;
+  height: 75px;
   width: auto;
+  margin: 10px;
 }
 .contacto_pagina .contacto_contenido .contacto_formulario form {
   display: flex;
@@ -779,19 +794,6 @@ main .productos_fotos video {
     border-radius: 15px;
   }
 
-  /* PAGINA PRODUCTOS - INICIO */
-  main .productos_fotos {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 5px;
-  }
-
-  main .productos_fotos img {
-    width: auto;
-    height: 150px;
-  }
-
-  /* PAGINA PRODUCTOS - FIN */
   /* PAGINA NOSOTROS - INICIO */
   main .nosotros {
     width: 90%;
@@ -1130,19 +1132,6 @@ main .productos_fotos video {
     border-radius: 15px;
   }
 
-  /* PAGINA PRODUCTOS - INICIO */
-  main .productos_fotos {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 5px;
-  }
-
-  main .productos_fotos img {
-    width: auto;
-    height: 150px;
-  }
-
-  /* PAGINA PRODUCTOS - FIN */
   /* PAGINA NOSOTROS - INICIO */
   main .nosotros {
     width: 90%;
@@ -1481,19 +1470,6 @@ main .productos_fotos video {
     border-radius: 15px;
   }
 
-  /* PAGINA PRODUCTOS - INICIO */
-  main .productos_fotos {
-    grid-template-columns: repeat(2, 1fr);
-    justify-items: center;
-    gap: 5px;
-  }
-
-  main .productos_fotos img {
-    width: auto;
-    height: 150px;
-  }
-
-  /* PAGINA PRODUCTOS - FIN */
   /* PAGINA NOSOTROS - INICIO */
   main .nosotros {
     width: 90%;
@@ -1832,19 +1808,6 @@ main .productos_fotos video {
     border-radius: 15px;
   }
 
-  /* PAGINA PRODUCTOS - INICIO */
-  main .productos_fotos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  main .productos_fotos img {
-    width: 40%;
-  }
-
-  /* PAGINA PRODUCTOS - FIN */
   /* PAGINA NOSOTROS - INICIO */
   main .nosotros {
     width: 90%;
@@ -1994,19 +1957,6 @@ main .productos_fotos video {
   }
 
   /* NOVEDADES - FIN */
-  /* PAGINA PRODUCTOS - INICIO */
-  main .productos_fotos {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-  }
-
-  main .productos_fotos img {
-    width: 30%;
-  }
-
-  /* PAGINA PRODUCTOS - FIN */
   /* PAGINA NOSOTROS - INICIO */
   .nosotros_pagina .quienessomos_titulo h2 {
     font-size: 25px;
@@ -2056,7 +2006,7 @@ main .productos_fotos video {
   }
 
   .contacto_pagina .contacto_contenido .redessociales_iconos img {
-    height: 100px;
+    height: 75px;
     width: auto;
   }
 

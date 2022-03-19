@@ -58,6 +58,7 @@ main{
     margin-bottom: 0;
     position: relative;
     box-shadow: 0px 5px 15px black;
+    background-attachment: fixed;
 }
 #fondo::before{
     content: "";
@@ -207,7 +208,7 @@ main{
     margin-bottom: 5%;
     .estampadora_info{
         width: 50%;
-        height: 200px;
+        height: 320px;
         background-color: rgba(255, 255, 255, 0.7);
         padding: 25px;
         font-family: "comfortaa";
@@ -228,7 +229,7 @@ main{
         align-items: center;
         justify-content: center;
         transform: translateY(100px);
-        border-radius: 0px 15px 15px 15px;
+        border-radius: 0px 15px 15px 0px;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
         img{
             height: 300px;
@@ -249,7 +250,7 @@ main{
     margin-bottom: 5%;
     .impresora_info{
         width: 50%;
-        height: 200px;
+        height: 320px;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 25px;
         font-family: "comfortaa";
@@ -270,7 +271,7 @@ main{
         align-items: center;
         justify-content: center;
         transform: translateY(100px);
-        border-radius: 15px 0px 15px 15px;
+        border-radius: 15px 0px 0px 15px;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
         img{
             height: 300px;
@@ -291,7 +292,7 @@ main{
     margin-bottom: 5%;
     .hojas_info{
         width: 50%;
-        height: 200px;
+        height: 320px;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 25px;
         font-family: "comfortaa";
@@ -312,7 +313,7 @@ main{
         align-items: center;
         justify-content: center;
         transform: translateY(100px);
-        border-radius: 0px 15px 15px 15px;
+        border-radius: 0px 15px 15px 0px;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
         img{
             height: 300px;
@@ -333,7 +334,7 @@ main{
     margin-bottom: 5%;
     .tinta_info{
         width: 50%;
-        height: 200px;
+        height: 320px;
         background-color: rgba(255, 255, 255, 0.5);
         padding: 25px;
         font-family: "comfortaa";
@@ -354,7 +355,7 @@ main{
         align-items: center;
         justify-content: center;
         transform: translateY(100px);
-        border-radius: 15px 0px 15px 15px;
+        border-radius: 15px 0px 0px 15px;
         box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
         img{
             height: 300px;
@@ -401,24 +402,37 @@ main .productos_titulo h1{
     text-align: center;
 }
 main .productos_fotos{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    justify-items: center;
-    gap: 25px;
-    margin-top: 25px;
-    img{
-        width: 300px;
-        height: auto;
-        border: 2px;
-        border: rgba(0, 0, 0, 0.5);
-        border-style: solid;
-        border-radius: 25px;
-    }
-    video{
-        margin: 50px;
-        border-style: solid;
-        border-color: rgba(0, 0, 0, 0.5);
-        border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    .grupo{
+        margin-bottom: 30px;
+        background-color: rgba(255, 255, 255, 0.7);
+        width: 100%;
+        height: 100%;
+        padding: 25px 0px 25px 0px;
+        box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.5);
+        .titulo{
+            font-family: "comfortaa";
+            text-align: center;
+        }
+        .fotos{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            gap: 15px;
+            img{
+                height: 250px;
+                width: auto;
+                border-radius: 10px;
+                transition: 0.5s;
+            }
+            img:hover{
+                box-shadow: 0px 5px 5px 2px rgba(0, 0, 0, 0.5);
+                transform: scale(1.08);
+                transition: 0.5s;
+            }
+        }
     }
 }
 /* PAGINA PRODUCTOS - FIN */
@@ -511,8 +525,9 @@ $textos:(
         margin: 25px;
     }
     .redessociales_iconos img{
-        height: 100px;
+        height: 75px;
         width: auto;
+        margin: 10px;
     }
     .contacto_formulario form{
         display: flex;
@@ -764,18 +779,6 @@ $textos:(
         }
     } 
     // INSUMOS - FIN
-
-    /* PAGINA PRODUCTOS - INICIO */
-    main .productos_fotos{
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        gap: 5px;
-    }
-    main .productos_fotos img{
-        width: auto;
-        height: 150px;
-    }
-    /* PAGINA PRODUCTOS - FIN */
 
     /* PAGINA NOSOTROS - INICIO */
     main .nosotros{
@@ -1092,18 +1095,6 @@ $textos:(
     }
     // INSUMOS - FIN
 
-    /* PAGINA PRODUCTOS - INICIO */
-    main .productos_fotos{
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        gap: 5px;
-    }
-    main .productos_fotos img{
-        width: auto;
-        height: 150px;
-    }
-    /* PAGINA PRODUCTOS - FIN */
-
     /* PAGINA NOSOTROS - INICIO */
     main .nosotros{
         width: 90%;
@@ -1418,18 +1409,6 @@ $textos:(
         }
     }
     // INSUMOS - FIN
-
-    /* PAGINA PRODUCTOS - INICIO */
-    main .productos_fotos{
-        grid-template-columns: repeat(2, 1fr);
-        justify-items: center;
-        gap: 5px;
-    }
-    main .productos_fotos img{
-        width: auto;
-        height: 150px;
-    }
-    /* PAGINA PRODUCTOS - FIN */
 
     /* PAGINA NOSOTROS - INICIO */
     main .nosotros{
@@ -1746,18 +1725,6 @@ $textos:(
     }
     // INSUMOS - FIN
 
-    /* PAGINA PRODUCTOS - INICIO */
-    main .productos_fotos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    main .productos_fotos img{
-        width: 40%;
-    }
-    /* PAGINA PRODUCTOS - FIN */
-
     /* PAGINA NOSOTROS - INICIO */
     main .nosotros{
         width: 90%;
@@ -1886,18 +1853,6 @@ $textos:(
     }
     /* NOVEDADES - FIN */
 
-    /* PAGINA PRODUCTOS - INICIO */
-    main .productos_fotos{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: space-around;
-    }
-    main .productos_fotos img{
-        width: 30%;
-    }
-    /* PAGINA PRODUCTOS - FIN */
-
     /* PAGINA NOSOTROS - INICIO */
     .nosotros_pagina .quienessomos_titulo h2{
         font-size: 25px;
@@ -1939,7 +1894,7 @@ $textos:(
         margin: 25px;
     }
     .contacto_pagina .contacto_contenido .redessociales_iconos img{
-        height: 100px;
+        height: 75px;
         width: auto;
     }
     .contacto_pagina .contacto_contenido .contacto_formulario form{
